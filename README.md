@@ -1,9 +1,9 @@
 # Banking-APPLICATION-gRPC
 
-Problem Statement
+Problem Statement : -
 The project's goal is to create a banking application based on gRPC that mimics interactions between clients and branches in a distributed system. Numerous financial procedures, including deposits, withdrawals, balance queries, and money transfers, must be handled by the system. The task is to efficiently build and execute this system while ensuring dependable and robust customer and branch communication.
 
-Goal
+Goal :-
 Creating a distributed banking system that enables many clients to execute transactions (withdrawals or deposits) from different bank branches is the aim described in the issue statement. This approach assumes that each client has a unique branch assignment and a shared bank account. It also assumes that the account is not undergoing any concurrent modifications.
 Each branch is in charge of keeping an accurate duplicate of the account balance that is synced with copies in other branches. Customers only communicate with the specified branch, which is identifiable by a specific ID.
 
